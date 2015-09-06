@@ -27,7 +27,7 @@ $(call inherit-product, device/asus/tilapia/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_tilapia
+PRODUCT_NAME := metallium_tilapia
 PRODUCT_DEVICE := tilapia
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on Tilapia
